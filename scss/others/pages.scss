@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-image: url(../../Images/backgroundLp.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  color: white;
+}
+.container1 {
+  background-color: $container-color;
+  width: 450px;
+  height: auto;
+
+  img {
+    width: 180px;
+  }
+  .paragraph {
+    margin: 8px 0px;
+  }
+  .btn-send {
+    color: $btn-color;
+    &:hover {
+      background-color: $btn-color;
+      color: white;
+    }
+  }
+}
+
+.footer {
+  margin-top: 30px;
+  margin-bottom: -30px;
+}
+
+@media (max-width: 450px) {
+  .container1 {
+    width: 100%;
+  }
+}
